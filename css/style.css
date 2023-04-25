@@ -1,24 +1,72 @@
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(
+    circle 819px at 23.4% -21.8%,
+    rgb(35, 62, 139) 0.2%,
+    rgb(43, 3, 41) 100.2%
+  );
+}
+main {
+  flex-grow: 1;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.099);
+  border-radius: 20px;
+  box-shadow: 0 0px 15px 0px rgb(0, 0, 0);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.066);
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.formBuscar {
+  background-color: rgba(77, 104, 14, 0.075);
+  border-radius: 15px;
+  box-shadow: 0 1px 5px 0px rgb(0, 0, 0);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(253, 253, 253, 0.066);
+}
+.formBuscar:focus {
+  background-color: rgba(87, 88, 88, 0.212);
+  border-radius: 15px;
+  box-shadow: 0 1px 15px 0px rgb(35, 41, 21);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(253, 253, 253, 0.066);
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.099);
+  border-radius: 20px;
+  box-shadow: 0 1px 10px 0px rgb(0, 0, 0);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(253, 253, 253, 0.066);
+  margin-top: 15px;
+  padding: 50px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.vidrio {
+  background-color: rgba(255, 255, 255, 0.136);
+  border-radius: 10px;
   
+  backdrop-filter: blur(15px);
+  border: 1px solid rgb(29, 12, 12);
+  font-size: smaller;
+}
+
+/* MEDIA QUERY CELULARES **/
+@media all and (max-width: 640px) {
+  body {
     background-color: #1d1018;
-    background-image: linear-gradient(225deg, #1d1018 5%, #210e6e 50%, #494d51 100%);
-    
-
+    background-image: linear-gradient(
+      90deg,
+      #1d1018 6%,
+      #03556c 150%,
+      #06090c 100%
+    );
   }
-  main {
-    flex-grow: 1;
-  }
-
-
-  @media all and (max-width:640px) {
-    body {
-        background-color: #1d1018;
-        background-image: linear-gradient(90deg, #1d1018 6%, #03556c 150%, #06090c 100%);
-    }
-
-
-
-  }
+}

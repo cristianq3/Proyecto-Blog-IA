@@ -24,10 +24,10 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="container navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html">
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand fs-2" href="/index.html">
             AI <strong class="text-warning">QUEST </strong>
           </a>
           <button
@@ -46,14 +46,13 @@
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Top 5 IA
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu vidrio mt-sm-0 mt-lg-3">
                   <li>
                     <a
                       class="dropdown-item"
@@ -103,37 +102,38 @@
                 >
                   Articulos
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu mt-sm-0 mt-lg-3 vidrio">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a
+                      class="dropdown-item"
+                      href="/pages/DetalleArticulo1.html"
+                    >
                       ¿Qué es la IA y cómo está cambiando el mundo?</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#"
+                    <a class="dropdown-item" href="/pages/DetalleArticulo2.html"
                       >¿Puede la inteligencia artificial ser creativa?
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#"
+                    <a class="dropdown-item" href="/pages/DetalleArticulo3.html"
                       >Los peligros y las promesas de la inteligencia
                       artificial</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#"
+                    <a class="dropdown-item" href="/pages/DetalleArticulo4.html"
                       >¿Cómo funciona una red neuronal?</a
                     >
                   </li>
+
+                  <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Los 5 modelos de IA más avanzados y su potencial
-                      revolucionario</a
+                    <a class="dropdown-item" href="https://chat.openai.com"
+                      >Chat GPT 3.5</a
                     >
                   </li>
-                  <li><a class="dropdown-item" href="#"> Guerra de IAs</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Chat GPT 3.5</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -142,19 +142,21 @@
             </ul>
             <form class="d-flex" role="search">
               <input
-                class="form-control me-2"
+                class="form-control me-2 formBuscar"
                 type="search"
-                placeholder="Search"
+                placeholder="Buscar palabra"
                 aria-label="Search"
               />
-              <button class="btn" type="submit">Buscar</button>
+              <button class="btn btn-outline-secondary rounded-4" type="submit">
+                Buscar
+              </button>
             </form>
           </div>
         </div>
       </nav>
     </header>
     <main></main>
-    <footer class="text-center">
+    <footer class="text-center container-fluid">
       &copy; Todos los derechos reservados AI
       <strong class="text-warning"> QUEST</strong> hecho por
       <a
