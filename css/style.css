@@ -4,8 +4,8 @@ body {
   flex-direction: column;
   background-image: radial-gradient(
     circle 819px at 23.4% -21.8%,
-    rgb(35, 62, 139) 0.2%,
-    rgb(43, 3, 41) 100.2%
+    rgb(19, 42, 39)0.2%,
+    rgb(61, 61, 61) 100.2%
   );
 }
 main {

@@ -1,0 +1,42 @@
+.hero-section {
+  background-image: url("/img/Artificial_Intelligence_&_AI_&_Machine_Learning_-_30212411048.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  color: gainsboro;
+
+}
+
+.contenedorTextoHero {
+  background-color: rgba(127, 255, 212, 0.114);
+  filter: blur(px);
+  color: bisque; 
+  
+}
+
+
+.vidrio {
+    background-color: rgba(255, 255, 255, 0.136);
+    border-radius: 29px;
+    border: rgba(216, 221, 197, 0.147);
+    backdrop-filter: blur(4px);
+    text-shadow: 3px 5px 16px #000000;
+}
+
+.card {
+    max-width: 350px;
+    margin-top: 15px;
+    margin:15px;
+}
+
+.card-img {
+
+    border-radius: 15px;
+
+}
