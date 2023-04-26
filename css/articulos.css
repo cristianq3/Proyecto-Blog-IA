@@ -1,6 +1,26 @@
 body {
-    text-shadow: 3px 5px 16px #000000;
+  text-shadow: 3px 5px 16px #000000;
 }
 p {
-    text-align: justify;
+  text-align: justify;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+a img {
+  width: 500px;
+}
+
+a img:hover {
+  width: 509px;
+  filter: brightness(120%);
+}
+
+@media (max-width: 640px) {
+  a img {
+    width: 380px;
+  }
 }
