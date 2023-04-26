@@ -30,7 +30,9 @@
 }
 
 .card {
-    max-width: 280px;
+    max-width: 350px;
+    margin-top: 15px;
+    margin:15px;
 }
 
 .card-img {
