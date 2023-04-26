@@ -1,5 +1,6 @@
-.publicidad {
-    height: 600px;
-    width: 350px;
-    
+body {
+    text-shadow: 3px 5px 16px #000000;
+}
+p {
+    text-align: justify;
 }
