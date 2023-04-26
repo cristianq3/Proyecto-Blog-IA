@@ -233,19 +233,7 @@
       </section>
 
       <!-- MODAL PUBLICIDAD -->
-      <!-- Agrega el atributo 'data-bs-delay' al botón que activa el modal para que no se muestre automáticamente al hacer clic en él -->
-      <button
-        type="button"
-        class="btn btn-primary d-none"
-        data-bs-toggle="modal"
-        data-bs-target="#modalPublicidad"
-        data-bs-delay="4000"
-      >
-        Launch modal
-      </button>
-
-      <!-- Agrega el atributo 'data-bs-backdrop' para que el modal se cierre si haces clic fuera de él -->
-      <div
+      <section
         class="modal mt-5 fade"
         id="modalPublicidad"
         tabindex="-1"
@@ -267,18 +255,7 @@
             </a>
           </div>
         </div>
-      </div>
-
-      <script>
-        // Espera 4 segundos y muestra el modal
-        setTimeout(function () {
-          var myModal = new bootstrap.Modal(
-            document.getElementById("modalPublicidad"),
-            {}
-          );
-          myModal.show();
-        }, 4000);
-      </script>
+      </section>
     </main>
     <footer class="text-center container-fluid">
       &copy; Todos los derechos reservados AI
@@ -295,5 +272,7 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+
+    <script src="/js/app.js"></script>
   </body>
 </html>
