@@ -28,3 +28,13 @@
     backdrop-filter: blur(4px);
     text-shadow: 3px 5px 16px #000000;
 }
+
+.card {
+    max-width: 280px;
+}
+
+.card-img {
+
+    border-radius: 15px;
+
+}
