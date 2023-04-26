@@ -9,34 +9,34 @@
   align-items: center;
   text-align: center;
   padding: 0 20px;
-  color: gainsboro;
+  color: rgb(255, 255, 255);
+}
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .contenedorTextoHero {
   background-color: rgba(127, 255, 212, 0.114);
   filter: blur(px);
-  color: bisque; 
-  
+  color: bisque;
 }
 
-
 .vidrio {
-    background-color: rgba(255, 255, 255, 0.136);
-    border-radius: 29px;
-    border: rgba(216, 221, 197, 0.147);
-    backdrop-filter: blur(4px);
-    text-shadow: 3px 5px 16px #000000;
+  background-color: rgba(255, 255, 255, 0.136);
+  border-radius: 29px;
+  border: rgba(216, 221, 197, 0.147);
+  backdrop-filter: blur(4px);
+  text-shadow: 3px 5px 16px #000000;
 }
 
 .card {
-    max-width: 350px;
-    margin-top: 15px;
-    margin:15px;
+  max-width: 350px;
+  margin-top: 15px;
+  margin: 15px;
 }
 
 .card-img {
-
-    border-radius: 15px;
-
+  border-radius: 15px;
 }

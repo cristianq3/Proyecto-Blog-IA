@@ -21,6 +21,7 @@ main {
   margin-top: 0px;
   padding: 2px;
   border-top-right-radius: 0px;
+  text-shadow: 3px 5px 16px #000000;
   border-top-left-radius: 0px;
 }
 
@@ -29,13 +30,12 @@ main {
   border-radius: 15px;
   box-shadow: 0 1px 5px 0px rgb(0, 0, 0);
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(253, 253, 253, 0.066);
+  border: 1px solid rgba(253, 253, 253, 0.099);
 }
 .formBuscar:focus {
-  background-color: rgba(87, 88, 88, 0.212);
   border-radius: 15px;
-  box-shadow: 0 1px 15px 0px rgb(35, 41, 21);
-  backdrop-filter: blur(16px);
+  box-shadow: 0 1px 15px 0px rgb(0, 0, 0);
+
   border: 1px solid rgba(253, 253, 253, 0.066);
 }
 
@@ -57,6 +57,10 @@ footer {
   backdrop-filter: blur(15px);
   border: 1px solid rgb(29, 12, 12);
   font-size: smaller;
+}
+ul .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.881);
+  border-radius: 5px;
 }
 
 /* MEDIA QUERY CELULARES **/
