@@ -11,39 +11,34 @@ Formulario.addEventListener("submit", function (e) {
 });
 
 function buscarArticulos(texto) {
-  const articles = document.querySelectorAll(".card-body")    
-  articles.forEach(function (article){
-    const title = article.querySelector(".card-title").textContent;      
+  const articles = document.querySelectorAll(".card-body");
+  articles.forEach(function (article) {
+    const title = article.querySelector(".card-title").textContent;
     const description = article.querySelector(".card-text").textContent;
     tituloObjeto = article.querySelector(".card-title");
-    descripcionObjeto = article.querySelector(".card-text");   
-    if (texto !== ""){
-
+    descripcionObjeto = article.querySelector(".card-text");
+    if (texto !== "") {
       console.log("isnotNULL");
-      span = `<span class="resultadoBusqueda">${texto}</span>`
-      if (title.includes(texto) || description.includes(texto)){
-        let cambiosTitulo = title.replace(texto,span);
-        let cambiosDescripcion = description.replace(texto,span);
+      span = `<span class="resultadoBusqueda">${texto}</span>`;
+      if (title.includes(texto) || description.includes(texto)) {
+        let cambiosTitulo = title.replace(texto, span);
+        let cambiosDescripcion = description.replace(texto, span);
         console.log(cambiosTitulo);
         tituloObjeto.innerHTML = cambiosTitulo;
         descripcionObjeto.innerHTML = cambiosDescripcion;
-        
-      }else{
-
+      } else {
         let spans = article.querySelectorAll("span");
-        
+
         // Iterar sobre los spans y eliminarlos
         for (let i = 0; i < spans.length; i++) {
           let span = spans[i];
           span.parentNode.removeChild(span);
-        }    
+        }
       }
-      
-    }else{
-         location.reload();
-      
-    }  
-    });
+    } else {
+      location.reload();
+    }
+  });
 }
 
 setTimeout(() => {
