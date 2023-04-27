@@ -26,11 +26,12 @@ main {
 }
 
 .formBuscar {
-  background-color: rgba(77, 104, 14, 0.075);
+  background-color: rgba(77, 104, 14, 0.093);
   border-radius: 15px;
   box-shadow: 0 1px 5px 0px rgb(0, 0, 0);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(253, 253, 253, 0.099);
+  color: white;
 }
 .formBuscar:focus {
   border-radius: 15px;
@@ -49,6 +50,11 @@ footer {
   padding: 50px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+}
+
+.resultadoBusqueda {
+  background-color: yellow;
+  color: #000000;
 }
 
 .vidrio {
