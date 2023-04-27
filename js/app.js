@@ -28,13 +28,20 @@ function buscarArticulos(texto) {
         tituloObjeto.innerHTML = cambiosTitulo;
         descripcionObjeto.innerHTML = cambiosDescripcion;
         
-      }     
-      // tituloObjeto.remove("span");
+      }else{
+
+        let spans = article.querySelectorAll("span");
+        
+        // Iterar sobre los spans y eliminarlos
+        for (let i = 0; i < spans.length; i++) {
+          let span = spans[i];
+          span.parentNode.removeChild(span);
+        }    
+      }
       
     }else{
-  
-        
-  
+         location.reload();
+      
     }  
     });
 }
