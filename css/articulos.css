@@ -19,6 +19,10 @@ a img:hover {
   filter: brightness(120%);
 }
 
+.cajaComentarios {
+  max-width: 500px;
+}
+
 @media (max-width: 640px) {
   a img {
     width: 380px;
