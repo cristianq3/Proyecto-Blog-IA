@@ -20,7 +20,7 @@ function agregarComentario() {
   <div class=" fs-5 pb-3 vidrio p-4">
     <ul class="list-unstyled container">
       <li class="my-2"><b>Nombre: </b> ${nombre}</li>
-      <li class="my-2"><b>E-mail:</b> ${mail}</li>
+      <li class="my-2"><b>E-mail:</b> ${mail}</li>022222 n
       <li class="cajaComentarios my-2">
         <b>Comentario:</b> <br />
         ${comentario}

@@ -222,6 +222,47 @@
           y la salida deseada.
         </p>
       </section>
+      <!-- Formulario de comentarios -->
+      <section
+        class="mt-3 p-5 flex-column rounded-5 bg-dark container d-flex flex-column justify-content-center"
+      >
+        <form id="formComentarios">
+          <h2 class="display-4 mb-5">Dejá una comentario sobre el articulo</h2>
+          <div class="d-flex flex-column">
+            <label for="nombre">Ingresa tu Nombre *</label>
+            <input
+              required
+              type="text"
+              class="formBuscar"
+              name="nombre"
+              id="nombre"
+            />
+            <label for="nombre">Correo electronico</label>
+            <input type="email" name="nombre" id="mail" class="formBuscar" />
+            <label for="comentario"> Aqui puedes dajar tu comentario.*</label>
+            <input
+              required
+              type="textarea"
+              class="formBuscar"
+              name="comentario"
+              id="comentario"
+            />
+          </div>
+
+          <button
+            type="submit"
+            id="btnEnviarComentario"
+            class="btn btn-outline-light mt-3"
+          >
+            Enviar
+          </button>
+        </form>
+        <h2 class="display-4 mb-4">Comentarios:</h2>
+        <section
+          class="container comentarios d-flex justify-content-center flex-wrap align-items-center"
+        ></section>
+      </section>
+
       <!-- MODAL PUBLICIDAD -->
       <section
         class="modal mt-5 fade"
@@ -262,6 +303,8 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+
     <script src="/js/app.js"></script>
+    <script src="/js/comentarios.js"></script>
   </body>
 </html>
