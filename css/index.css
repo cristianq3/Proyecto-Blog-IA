@@ -28,8 +28,9 @@
 
 .contenedorTextoHero {
   background-color: rgba(127, 255, 212, 0.114);
-  filter: blur(px);
+  filter: blur(3px);
   color: bisque;
+  oa
 }
 
 .vidrio {

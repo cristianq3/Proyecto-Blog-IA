@@ -23,6 +23,9 @@ a img:hover {
   max-width: 500px;
 }
 
+#comentario {
+  height: 75px;
+}
 @media (max-width: 640px) {
   a img {
     width: 380px;
