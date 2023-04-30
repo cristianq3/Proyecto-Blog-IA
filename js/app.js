@@ -15,6 +15,7 @@ function buscarArticulos(texto) {
   articles.forEach(function (article) {
     const title = article.querySelector(".card-title").textContent;
     const description = article.querySelector(".card-text").textContent;
+
     tituloObjeto = article.querySelector(".card-title");
     descripcionObjeto = article.querySelector(".card-text");
     if (texto !== "") {
