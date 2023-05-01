@@ -1,6 +1,6 @@
-const Formulario = document.querySelector("form");
+const Formu = document.querySelector("form");
 
-Formulario.addEventListener("submit", function (e) {
+Formu.addEventListener("submit", function (e) {
   e.preventDefault();
   const Input = document.querySelector(".formBuscar").value;
 
@@ -18,24 +18,19 @@ function buscarArticulos(texto) {
   let contenedorArticulo = document.querySelector("section.pb-sm-1");
 
   console.log("Texto y descripcion OK" + tituloArticulo + descripcionArticulo);
-// Si no es vacio 
+  // Si no es vacio
   if (texto !== "") {
     console.log("isnotNULL");
-    
+
     let span = `<span class="resultadoBusqueda">${texto}</span>`;
 
-
-
     if (textoTitulo.includes(texto) || textoDescripcion.includes(texto)) {
-
       let cambiosTitulo = textoTitulo.replace(texto, span);
 
       let cambiosDescripcion = textoDescripcion.replace(texto, span);
 
       tituloArticulo.innerHTML = cambiosTitulo;
       descripcionArticulo.innerHTML = cambiosDescripcion;
-
-     
     }
   } else {
     alert("Por favor ingrese un texto para poder buscar...");
@@ -43,10 +38,5 @@ function buscarArticulos(texto) {
   }
 }
 
-// setTimeout(() => {
-//     let myModal = new bootstrap.Modal(
-//       document.getElementById("modalPublicidad"),
-//       {}
-//     );
-//     myModal.show();
-//   }, 4000);
+
+
