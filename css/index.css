@@ -14,8 +14,8 @@
 }
 
 .row {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #publi {
@@ -30,7 +30,6 @@
   background-color: rgba(127, 255, 212, 0.114);
   filter: blur(3px);
   color: bisque;
-  oa
 }
 
 .vidrio {
@@ -38,7 +37,6 @@
   border-radius: 29px;
   border: rgba(216, 221, 197, 0.147);
   backdrop-filter: blur(4px);
-  text-shadow: 3px 5px 16px #000000;
 }
 
 .card {
